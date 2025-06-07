@@ -2,7 +2,7 @@
 .next
 out
 dist
-
+components/ui
 # Ignore dependencies
 node_modules
 
