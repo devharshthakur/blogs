@@ -16,7 +16,11 @@ const header = () => {
       </div>
       <div className="items-center gap-4">
         <Button variant="outline" size="default" asChild>
-          <a href="https://github.com/devharshthakur/blog" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/devharshthakur/blog"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub className="h-4 w-4" />
             <span className="text-center">repo</span>
           </a>

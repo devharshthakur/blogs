@@ -14,6 +14,18 @@ This project is a collection of blogs written by me, Harsh Thakur, and is an int
 
 All content here is authored by me and reflects my journey, learnings, and experiments in software development. This blog is a showcase of my writing and coding skills as part of my professional portfolio.
 
+## 📦 Package Manager
+
+This project uses [pnpm](https://pnpm.io/) as the package manager. Please make sure to use pnpm for installing dependencies and running scripts.
+
+```bash
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+```
+
 ## 🚀 Visit My Portfolio
 
 Check out more projects and my full portfolio at: [devharshthakur.in](https://devharshthakur.in)
