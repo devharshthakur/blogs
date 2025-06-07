@@ -1,0 +1,3 @@
+echo "Running Prettier ..."
+pnpm format
+git add .

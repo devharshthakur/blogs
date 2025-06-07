@@ -6,16 +6,16 @@ import { ThemeToggle } from './theme-toggle';
 
 const header = () => {
   return (
-    <div className="flex items-center justify-end space-x-5 p-4 text-center font-bold">
+    <div className="sticky top-0 flex w-full items-center justify-end space-x-5 p-4 text-center font-bold">
       <div className="items-center gap-4">
-        <Button variant="outline" size="sm" asChild>
+        <Button variant="outline" size="default" asChild>
           <Link href="/about">
-            <span className="p-2">About</span>
+            <span className="p-0">About</span>
           </Link>
         </Button>
       </div>
       <div className="items-center gap-4">
-        <Button variant="outline" size="sm" asChild>
+        <Button variant="outline" size="default" asChild>
           <a href="https://github.com/devharshthakur/blog" target="_blank" rel="noopener noreferrer">
             <FaGithub className="h-4 w-4" />
             <span className="text-center">repo</span>
