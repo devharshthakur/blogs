@@ -15,11 +15,11 @@ const About = () => {
             />
           </div>
           <div className="text-center">
-            <h2 className="mb-4 text-7xl font-extrabold tracking-tighter">Harsh Thakur</h2>
-            <p className="text-foreground mb-4 max-w-2xl text-xl tracking-tighter">
+            <h2 className="mb-4 text-7xl font-extrabold -tracking-tight">Harsh Thakur</h2>
+            <p className="text-foreground mb-4 max-w-2xl text-xl font-medium tracking-tighter">
               Software Engineer & Final Year Computer Engineering Student
             </p>
-            <p className="text-foreground text-sm leading-relaxed font-medium tracking-widest">
+            <p className="text-sm leading-relaxed tracking-widest dark:font-thin dark:text-white">
               I am a full-stack web developer based in Mumbai, India, currently in my final year at
               Vidyalankar Institute of Technology. My passion lies at the intersection of technology
               and design, and I specialize in crafting modern web applications using Next.js, React,
