@@ -8,14 +8,14 @@ const header = () => {
   return (
     <div className="sticky top-0 flex w-full items-center justify-end space-x-5 p-4 text-center font-bold">
       <div className="items-center gap-4">
-        <Button variant="outline" size="default" asChild>
+        <Button variant="outline" size="default" asChild className="border-2 border-zinc-600">
           <Link href="/about">
             <span className="p-0">About</span>
           </Link>
         </Button>
       </div>
       <div className="items-center gap-4">
-        <Button variant="outline" size="default" asChild>
+        <Button variant="outline" size="default" asChild className="border-2 border-zinc-600">
           <a
             href="https://github.com/devharshthakur/blog"
             target="_blank"
@@ -27,7 +27,7 @@ const header = () => {
         </Button>
       </div>
       <div>
-        <ThemeToggle />
+        <ThemeToggle className="border-2 border-zinc-600" />
       </div>
     </div>
   );
