@@ -6,7 +6,7 @@ import { ThemeToggle } from './theme-toggle';
 
 const header = () => {
   return (
-    <div className="sticky top-0 flex w-full items-center justify-end space-x-5 p-4 text-center font-bold">
+    <header className="relative flex w-full items-center justify-end space-x-5 p-4 text-center font-bold">
       <div className="items-center gap-4">
         <Button variant="outline" size="default" asChild className="border-2 border-zinc-600">
           <Link href="/about">
@@ -29,7 +29,7 @@ const header = () => {
       <div>
         <ThemeToggle className="border-2 border-zinc-600" />
       </div>
-    </div>
+    </header>
   );
 };
 
