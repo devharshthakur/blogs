@@ -2,7 +2,7 @@
 
 Welcome to my personal blog app! 🚀
 
-This project is a collection of blogs written by me, Harsh Thakur, and is an integral part of my portfolio website: [devharshthakur.in](https://devharshthakur.in) 🌐
+This project is to showcase blogs written by me, and is an integral part of my portfolio website: [devharshthakur.in](https://devharshthakur.in) 🌐
 
 ## ✨ Features
 

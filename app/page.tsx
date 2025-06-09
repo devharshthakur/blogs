@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { Notebook, Sparkles } from 'lucide-react';
+import { Notebook } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Home() {
