@@ -1,8 +1,14 @@
 import Header from '@/components/global/header';
 import { Button } from '@/components/ui/button';
 import { Notebook } from 'lucide-react';
+import { Syne_Mono } from 'next/font/google';
 import Link from 'next/link';
-import { syneMono } from './layout';
+
+const syneMono = Syne_Mono({
+  variable: '--font-syne-mono',
+  subsets: ['latin'],
+  weight: '400',
+});
 
 export default function Home() {
   return (
