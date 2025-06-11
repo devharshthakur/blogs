@@ -11,10 +11,10 @@ type BlogListProps = {
 };
 
 const BlogList: React.FC<BlogListProps> = ({ posts }) => {
-  const [showAll, setShowAll] = useState(false);
+  const [showAll, setShowAll] = useState<boolean>(false);
 
   if (posts.length <= 3) {
-    // Center the single post title since single blog post is to be rendered
+    // Center the posts title since blog has three posts to be rendered
     const post = posts[0];
     return (
       <main className="flex min-h-[90vh] items-center justify-center-safe">

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { getAllPosts } from '@/lib/mdx';
 import { Post } from '@/types/blog';
 import BlogList from './BlogList';
