@@ -3,7 +3,6 @@ export interface FrontMatter {
   date: string; // ISO 8601 string, e.g., '2023-10-27'
   description: string;
   slug: string;
-  tags?: string[];
   image?: string;
 }
 
