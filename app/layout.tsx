@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/global/theme-provider';
-import Header from '@/components/global/header';
 
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
@@ -29,7 +28,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="">
-            <Header />
             <main className="">{children}</main>
           </div>
         </ThemeProvider>
