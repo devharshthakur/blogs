@@ -20,7 +20,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ),
     pre: ({ children, ...props }) => (
       <pre
-        className="overflow-x-auto rounded-lg bg-gray-50 text-sm leading-relaxed shadow-inner dark:bg-gray-800"
+        className="overflow-x-auto rounded-lg bg-gray-50 leading-relaxed shadow-inner dark:bg-gray-800"
         {...props}
       >
         {children}

@@ -27,13 +27,13 @@ export default async function IndividualPostPage({ params }: IndividualPostPageP
   const { title } = post.frontmatter;
 
   return (
-    <article className="container mx-auto my-12 max-w-5xl p-10">
+    <article className="container mx-auto my-8 max-w-5xl p-10">
       <header className="mb-8 text-center">
         <h1 className="mb-5 text-5xl leading-tight font-extrabold tracking-tighter md:text-6xl">
           {title}
         </h1>
       </header>
-      <div className="prose prose-lg dark:prose-invert mx-auto max-w-4xl pb-2 tracking-tight dark:text-zinc-300">
+      <div className="prose prose-lg dark:prose-invert mx-auto my-auto mt-13 max-w-4xl pb-2 tracking-tight dark:text-zinc-300">
         <MDXRemote
           source={post.content}
           options={{
